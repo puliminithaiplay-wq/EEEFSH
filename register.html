@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration - Alpha College</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">ALPHA</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="register.html">Register</a>
+        <a href="results.html">Results</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="page-title">
+    <h1>Event Registration</h1>
+    <p>Register for your favourite event</p>
+</section>
+
+<section class="form-container">
+
+    <form id="registrationForm">
+
+        <label>Student Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label>Register Number</label>
+        <input type="text" id="registerNumber" placeholder="Enter register number" required>
+
+        <label>Department</label>
+        <input type="text" id="department" placeholder="Enter department" required>
+
+        <label>Year</label>
+
+        <select id="year" required>
+            <option value="">Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+        </select>
+
+        <label>Select Event</label>
+
+        <select id="event" required>
+            <option value="">Choose Event</option>
+            <option>Short Film Contest</option>
+            <option>Face Painting</option>
+            <option>Dance</option>
+            <option>Singing</option>
+            <option>Painting</option>
+            <option>Acting</option>
+            <option>Cooking</option>
+            <option>Martial Arts</option>
+        </select>
+
+        <label>Category</label>
+
+        <select id="category" required>
+            <option value="">Select Category</option>
+            <option>Individual</option>
+            <option>Team</option>
+        </select>
+
+        <button type="submit" class="btn">Submit Registration</button>
+
+    </form>
+
+    <div id="message"></div>
+
+</section>
+
+<footer>
+    <p>© 2026 Alpha Arts and Science College</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
